@@ -62,6 +62,7 @@ const LandingPage = () => {
           <TfiAngleRight />
         </button>
       </div>
+
       <div className="landing-right"></div>
     </div>
   )

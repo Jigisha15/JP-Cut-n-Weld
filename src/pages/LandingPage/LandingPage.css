@@ -7,7 +7,6 @@
 .landing-left {
   width: 50vw;
   height: 100vh;
-  border: 1px solid grey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,5 +32,5 @@
 .landing-right {
   width: 50vw;
   height: 100vh;
-  border: 1px solid grey;
+  background-color: #e2eafc;
 }
