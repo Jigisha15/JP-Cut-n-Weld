@@ -7,6 +7,7 @@ import LandingPage from './pages/LandingPage/LandingPage'
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import Product from './pages/Product/Product'
+import Info from './pages/Info/Info'
 
 import './App.css'
 
@@ -32,6 +33,10 @@ function App() {
           <Route
             path="/product"
             element={<Product />}
+          />
+          <Route
+            path="/info"
+            element={<Info />}
           />
         </Routes>
         <Footer />
