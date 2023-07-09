@@ -5,4 +5,5 @@ body {
 
 .App {
   max-width: 100vw;
+  position: relative;
 }

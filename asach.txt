@@ -1,1 +1,5 @@
 #03045e
+
+font-family: 'Abel', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Ysabeau Office', sans-serif;

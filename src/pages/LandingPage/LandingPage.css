@@ -1,12 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@100;300;400;700&family=Ysabeau+Office:wght@1;100;200;300;400;500;600;700&display=swap');
+
 .landing-page {
   max-width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+.landing-top {
+  max-width: 100vw;
   height: 100vh;
+  background-color: lightgrey;
+}
+
+.landing-middle {
   display: flex;
 }
 
 .landing-left {
   width: 50vw;
-  height: 100vh;
+  max-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,4 +47,19 @@
   width: 50vw;
   height: 100vh;
   background-color: #e2eafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+
+.right-one {
+  margin: 6rem 0 0 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.right-two {
+  font-size: 2.5rem;
+  font-weight: 400;
 }

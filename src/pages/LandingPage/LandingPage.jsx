@@ -40,30 +40,36 @@ const LandingPage = () => {
 
   return (
     <div className="landing-page">
-      <div className="landing-left">
-        <button onClick={prevClick}>
-          <TfiAngleLeft />
-        </button>
-        {carousel.map((item, index) => (
-          <div
-            className={index === click ? 'carousel active' : 'carousel'}
-            key={index}
-          >
-            {index === click && (
-              <img
-                className="car-image"
-                src={item.image}
-                alt=""
-              />
-            )}
-          </div>
-        ))}
-        <button onClick={nextClick}>
-          <TfiAngleRight />
-        </button>
-      </div>
+      <div className="landing-top"></div>
+      <div className="landing-middle">
+        <div className="landing-left">
+          <button onClick={prevClick}>
+            <TfiAngleLeft />
+          </button>
+          {carousel.map((item, index) => (
+            <div
+              className={index === click ? 'carousel active' : 'carousel'}
+              key={index}
+            >
+              {index === click && (
+                <img
+                  className="car-image"
+                  src={item.image}
+                  alt=""
+                />
+              )}
+            </div>
+          ))}
+          <button onClick={nextClick}>
+            <TfiAngleRight />
+          </button>
+        </div>
 
-      <div className="landing-right"></div>
+        <div className="landing-right">
+          <h1 className="right-one">Get the best from the best</h1>
+          <h1 className="right-two">Get to know more about us </h1>
+        </div>
+      </div>
     </div>
   )
 }
