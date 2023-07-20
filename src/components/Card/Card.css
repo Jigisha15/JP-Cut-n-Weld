@@ -1,23 +1,11 @@
 .card {
-  width: 18vw;
-  height: 42vh;
-  border: 1px solid lightgrey;
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  position: absolute;
-  z-index: 0;
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
 }
 
-.card-image {
-  width: 18vw;
-  height: 35vh;
-  /* position: relative; */
-}
-
-.card-text {
-  z-index: 1;
-  position: relative;
-  margin: 0 2vw;
-  top: 37vh;
+.card-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }

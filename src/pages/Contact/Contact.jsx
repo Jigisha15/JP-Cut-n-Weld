@@ -40,23 +40,26 @@ const Contact = () => {
           type="text"
           name="name"
         />
+        <br />
         <label htmlFor="phone">Contact number</label>
         <input
           type="tel"
           name="phone"
         />
+        <br />
         <label htmlFor="email">Email ID</label>
         <input
           type="email"
           name="email"
         />
+        <br />
         <label htmlFor="feedback">Message</label>
         <textarea
           rows={5}
           type="text"
           name="feedback"
         />
-
+        <br />
         <button
           type="submit"
           value="Submit"

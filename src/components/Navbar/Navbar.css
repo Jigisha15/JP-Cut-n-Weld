@@ -6,7 +6,8 @@
   justify-content: center;
   align-items: center;
   font-family: 'Ysabeau Office', sans-serif;
-  /* border-bottom: 1px solid lightgrey; */
+  position: sticky;
+  top: 0;
   box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.2);
 }
 

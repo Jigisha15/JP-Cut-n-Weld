@@ -1,25 +1,17 @@
 import React from 'react'
+import './Card.css'
+import products from '../../data/products.js'
 import { Link } from 'react-router-dom'
 
-import m1 from '../../assets/1.jpg'
-
-import './Card.css'
-
-const Card = () => {
+const Card = ({ image, text }) => {
   return (
-    <>
-      <Link
-        className="card"
-        to={'/info'}
-      >
-        <img
-          className="card-image"
-          src={m1}
-          alt=""
-        />
-      </Link>
-      <div className="card-text">card</div>
-    </>
+    <div className="card">
+      <img
+        src={image}
+        alt=""
+      />
+      <h3>{text}</h3>
+    </div>
   )
 }
 
