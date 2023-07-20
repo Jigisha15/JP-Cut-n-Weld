@@ -8,6 +8,7 @@ import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import Product from './pages/Product/Product'
 import Info from './pages/Info/Info'
+import Services from './pages/Services/Services'
 
 import './App.css'
 
@@ -37,6 +38,10 @@ function App() {
           <Route
             path="/info"
             element={<Info />}
+          />
+          <Route
+            path="/services"
+            element={<Services />}
           />
         </Routes>
         <Footer />
