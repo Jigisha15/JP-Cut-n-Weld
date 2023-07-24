@@ -11,13 +11,19 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-main">
         <div className="left foot">
-          <h1>Contact Us</h1>
-          <ul>
-            <li>{<HiPhone />} : 123456789</li>
-            <li>
-              <BiLogoGmail /> : jpcnc@gmail.com
-            </li>
-          </ul>
+          <p>
+            We're in this industry since a decade. We provide the best machines
+            and a good serrvice alogn with a guaranteed maintainence.
+          </p>
+        </div>
+        <div className="middle foot">
+          <h1>Quick Contacts</h1>
+          <span>
+            <HiPhone /> : 123456789
+          </span>
+          <span>
+            <BiLogoGmail /> : jpcnc@gmail.com
+          </span>
         </div>
         <div className="right foot">
           <h1>Locate Us!</h1>

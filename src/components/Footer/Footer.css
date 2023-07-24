@@ -1,8 +1,10 @@
 .footer {
-  max-width: 100vw;
+  width: 100%;
   height: 300px;
   background-color: #1f1f1f;
   position: relative;
+  /* position: absolute; */
+  /* top: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,38 +13,39 @@
 
 .footer-main {
   display: flex;
-  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
   margin: 20px 0 0 0;
 }
 
 .foot {
   width: 400px;
   height: 200px;
+  /* border: 1px solid white; */
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .left {
-  color: white;
+  font-size: 22px;
+  text-align: left;
 }
 
-.left h1 {
+.middle {
+  padding: 0 0 0 60px;
+}
+
+.middle h1 {
   font-weight: 400;
+  font-size: 35px;
+  /* align-items: flex-start; */
+  /* justify-content: center; */
 }
 
-.left ul {
-  list-style: none;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.right h1 {
-  color: white;
-  font-size: 25px;
-  font-weight: 200;
+.middle span {
+  font-size: 20px;
 }
 
 .dev-name {
