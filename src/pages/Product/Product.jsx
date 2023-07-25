@@ -13,6 +13,7 @@ const Product = () => {
           className="card-contain"
           key={index}
         >
+          {items.image}
           <Card
             image={items.image}
             text={items.text}

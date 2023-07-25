@@ -12,7 +12,7 @@ const Navbar = () => {
             className="nav-li"
             to={'/'}
           >
-            Home
+            HOME
           </NavLink>
         </li>
         <li>
@@ -20,7 +20,7 @@ const Navbar = () => {
             className="nav-li"
             to={'/services'}
           >
-            Services
+            SERVICES
           </NavLink>
         </li>
         <li>
@@ -28,7 +28,7 @@ const Navbar = () => {
             className="nav-li"
             to={'/product'}
           >
-            Products
+            PRODUCTS
           </NavLink>
         </li>
         <li>
@@ -36,7 +36,7 @@ const Navbar = () => {
             className="nav-li"
             to={'/contact'}
           >
-            Contact
+            CONTACT
           </NavLink>
         </li>
         <li>
@@ -44,7 +44,7 @@ const Navbar = () => {
             className="nav-li"
             to={'/about'}
           >
-            About
+            ABOUT
           </NavLink>
         </li>
       </ul>
