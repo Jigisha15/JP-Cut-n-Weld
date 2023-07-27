@@ -11,6 +11,8 @@ import WeldingAuto from './pages/WeldingAuto/WeldingAuto'
 import GasCutting from './pages/GasCutting/GasCutting'
 import GasMetal from './pages/GasMetal/GasMetal'
 import PlasmaCutting from './pages/PlasmaCutting/PlasmaCutting'
+import ArcWelding from './pages/ArcWelding/ArcWelding'
+import Special from './pages/Special/Special'
 
 import LandingPage from './pages/LandingPage/LandingPage'
 import About from './pages/About/About'
@@ -83,6 +85,14 @@ function App() {
           <Route
             path="/plasma-cutting"
             element={<PlasmaCutting />}
+          />
+          <Route
+            path="/arc-welding"
+            element={<ArcWelding />}
+          />
+          <Route
+            path="/special"
+            element={<Special />}
           />
         </Routes>
         <Footer />
