@@ -4,17 +4,15 @@ import img1 from '../../assets/10.jpg'
 // import products from '../../data/products.js'
 import { Link } from 'react-router-dom'
 
-const Card = ({ image, text }) => {
+const Card = ({ to, text }) => {
   return (
-    <div className="card">
-      <img
-        className="card-image"
-        src={img1}
-        alt=""
-      />
-      <h3 className="card-text">Machine 1</h3>
-      <Link className="specs">View Specifications</Link>
-    </div>
+    <Link
+      className="card"
+      to={to}
+    >
+      <h3 className="card-text">{text}</h3>
+      <p>Click to view more products</p>
+    </Link>
   )
 }
 

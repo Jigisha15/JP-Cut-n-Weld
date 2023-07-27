@@ -1,5 +1,8 @@
 .product {
   margin: 20px 10px;
-  display: flex;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 300px 300px 300px;
   gap: 30px;
 }
