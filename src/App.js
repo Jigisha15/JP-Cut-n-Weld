@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Card from './components/Card/Card'
 
 import ShieldedMetalArc from './pages/ShieldedMetalArc/ShieldedMetalArc'
+import GasTungsten from './pages/GasTungsten/GasTungsten'
 
 import LandingPage from './pages/LandingPage/LandingPage'
 import About from './pages/About/About'
@@ -53,6 +54,10 @@ function App() {
           <Route
             path="/shielded-metal-arc"
             element={<ShieldedMetalArc />}
+          />
+          <Route
+            path="/gas-tungsten"
+            element={<GasTungsten />}
           />
         </Routes>
         <Footer />
