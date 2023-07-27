@@ -9,6 +9,8 @@ import GasTungsten from './pages/GasTungsten/GasTungsten'
 import CncGasPlasma from './pages/CncGasPlasma/CncGasPlasma'
 import WeldingAuto from './pages/WeldingAuto/WeldingAuto'
 import GasCutting from './pages/GasCutting/GasCutting'
+import GasMetal from './pages/GasMetal/GasMetal'
+import PlasmaCutting from './pages/PlasmaCutting/PlasmaCutting'
 
 import LandingPage from './pages/LandingPage/LandingPage'
 import About from './pages/About/About'
@@ -73,6 +75,14 @@ function App() {
           <Route
             path="/gas-cutting"
             element={<GasCutting />}
+          />
+          <Route
+            path="/gas-metal"
+            element={<GasMetal />}
+          />
+          <Route
+            path="/plasma-cutting"
+            element={<PlasmaCutting />}
           />
         </Routes>
         <Footer />
