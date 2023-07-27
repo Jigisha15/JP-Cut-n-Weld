@@ -1,9 +1,10 @@
+import Page from '../../components/Page/Page'
 import './ShieldedMetalArc.css'
 
 const ShieldedMetalArc = () => {
   return (
-    <div>
-      <h1>Shielded Metal Arc</h1>
+    <div className="shielded">
+      <Page />
     </div>
   )
 }

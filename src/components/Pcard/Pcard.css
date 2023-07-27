@@ -1,0 +1,23 @@
+.pcard-container {
+  width: 240px;
+  height: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.card-image {
+  border: 1px solid lightgrey;
+  width: 200px;
+  height: 200px;
+}
+
+.pcard-container h3 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+}
