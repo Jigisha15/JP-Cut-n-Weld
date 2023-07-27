@@ -6,6 +6,7 @@ import Card from './components/Card/Card'
 
 import ShieldedMetalArc from './pages/ShieldedMetalArc/ShieldedMetalArc'
 import GasTungsten from './pages/GasTungsten/GasTungsten'
+import CncGasPlasma from './pages/CncGasPlasma/CncGasPlasma'
 
 import LandingPage from './pages/LandingPage/LandingPage'
 import About from './pages/About/About'
@@ -58,6 +59,10 @@ function App() {
           <Route
             path="/gas-tungsten"
             element={<GasTungsten />}
+          />
+          <Route
+            path="/cnc-gas-plasma"
+            element={<CncGasPlasma />}
           />
         </Routes>
         <Footer />
