@@ -8,7 +8,8 @@
   font-family: 'Ysabeau Office', sans-serif;
   position: sticky;
   top: 0;
-  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 8px 1px rgba(72, 144, 254, 0.2);
+  background-color: #000610;
   backdrop-filter: blur(15px);
   z-index: 1;
 }
@@ -21,7 +22,8 @@
 
 .nav-li {
   margin: 1vw;
-  color: black;
+  /* color: black; */
+  color: #f2f7fe;
   text-decoration: none;
 }
 
